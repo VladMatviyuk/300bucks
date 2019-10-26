@@ -1,5 +1,3 @@
-console.log('start');
-
 var game = false;
 
 var canvas = document.getElementById('game');
@@ -124,6 +122,7 @@ function endGame() {
 	time = 0;
 	bucks = 0;
 	game = false;
+	location.reload();
 }
 
 function draw() {
